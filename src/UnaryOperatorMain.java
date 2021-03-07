@@ -15,7 +15,7 @@ public class UnaryOperatorMain {
         };
         SetLettersDuplicate(string, unaryOperator);
     }
-    static void SetLettersDuplicate(String s, UnaryOperator<String> unaryOperator){
+    static void setLettersDuplicate(String s, UnaryOperator<String> unaryOperator){
         System.out.println(unaryOperator.apply(s));
     }
 }
